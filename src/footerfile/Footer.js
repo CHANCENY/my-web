@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/js/bootstrap.js";
 
 import Listfooter from "./Listfooter";
 import Socialmedia from "./Socialmedia";
