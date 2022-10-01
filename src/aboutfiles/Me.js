@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../assets/images/4.jpg";
+//import myImage from "../assets/images/4.jpg";
 import { useContext } from "react";
 import DataContext from "../context/DataContext";
 
@@ -8,7 +8,7 @@ function Me() {
   const { ownerInfo, setPageTitle } = useContext(DataContext);
 
   //variables
-  let mineImage = myImage;
+  let mineImage = "";
   let myName = "Chance nyasulu";
   let myDescription = "none";
 
